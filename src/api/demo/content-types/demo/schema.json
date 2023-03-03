@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demos",
+  "info": {
+    "singularName": "demo",
+    "pluralName": "demos",
+    "displayName": "demo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
